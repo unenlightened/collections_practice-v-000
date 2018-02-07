@@ -40,3 +40,4 @@ end
 
 def add_s(array)
   array.each_with_index {|word, i| word << "s" }
+end
