@@ -34,5 +34,6 @@ end
 
 def sum_array(array)
   # array.inject(0) {|sum, number| sum + number}
-  array.reduce( :+ )  #array.inject(:+) returns nil on empty arrays
+  # array.reduce( :+ )  #array.inject(:+) returns nil on empty arrays
+  array.inject(0, :+)
 end
