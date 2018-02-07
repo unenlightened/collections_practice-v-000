@@ -34,5 +34,5 @@ end
 
 def sum_array(array)
   # array.inject(0) {|sum, number| sum + number}
-  array.reduce( :+ )
+  array.inject( :+ )
 end
